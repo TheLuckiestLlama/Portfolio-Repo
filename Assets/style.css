@@ -19,6 +19,7 @@
 .header ul li {
     display: inline;
     text-decoration: underline;
+    padding-bottom: 30px;
 }
 
 .AboutMe {
@@ -33,4 +34,36 @@
     font-size: xx-large;
     font-weight: bold;
     padding-right: 50px;
+    background-color: cadetblue;
+}
+
+.MyWork {
+    display: flex;
+    justify-content: left;
+    font-size: xx-large;
+    padding-left: 200px;
+}
+.MyWork ul{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 500px) {
+    .MyWork ul{
+        width: 25%;
+    }
+    
+}
+
+.footer{
+    display: flex;
+    padding-left: 200px;
+    font-size: xx-large;
+}
+
+.footer ul li{
+    display: inline;
+    font-size: x-large;
+    list-style-type: none;
 }
