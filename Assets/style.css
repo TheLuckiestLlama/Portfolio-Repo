@@ -35,6 +35,7 @@
     font-weight: bold;
     padding-right: 50px;
     background-color: cadetblue;
+    color: white;
 }
 
 .MyWork {
@@ -49,6 +50,21 @@
     list-style-type: none;
 }
 
+/* .myWork ul li:hover{ */
+    /* border: 10px solid black; */
+/* } */
+
+/* .myWork ul li:focus{ */
+    /* border: 10px solid cadetblue; */
+/* } */
+
+#MyWorkTXT {
+    background-color: cadetblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 500px) {
     .MyWork ul{
         width: 25%;
@@ -60,6 +76,13 @@
     display: flex;
     padding-left: 200px;
     font-size: xx-large;
+}
+
+.footer aside{
+    background-color: cadetblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .footer ul li{
