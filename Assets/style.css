@@ -65,9 +65,10 @@
     font-weight: bold;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .MyWork ul{
         width: 25%;
+        flex-direction: column;
     }
     
 }
